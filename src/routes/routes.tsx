@@ -1,7 +1,11 @@
 export const routes = {
     home: {
         path: '/',
-        name: 'Home',
+        name: 'Solenyx',
+    },
+    games: {
+        path: '/games',
+        name: 'Games',
     },
     blog: {
         path: '/blogs',
