@@ -12,7 +12,7 @@ const slides = [
       textDecoration: "none",
       fontSize: "1.5rem",
       fontWeight: "bold",
-    }} href="/games">
+    }} href="/?games">
       Ducklings Studio
     </a>,
     title: "Welcome to Solenyx",
