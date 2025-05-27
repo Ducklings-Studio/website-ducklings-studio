@@ -15,6 +15,9 @@ function Footer() {
                         <p className="info__about-us">ABOUT US</p>
                         <p className="info__about-us-description">We makes games</p>
                     </div>
+                    <nav style={{ margin: '1rem 0' }}>
+                        <Link to="/games" className="info__explore-link">Games</Link>
+                    </nav>
                     <p className="info__inc">
                         © {(new Date().getFullYear())} Ducklings Studio. All rights reserved.
                     </p>
@@ -60,6 +63,9 @@ function PhoneFooter() {
                         <p className="info__about-us">ABOUT US</p>
                         <p className="info__about-us-description">We makes games</p>
                     </div>
+                    <nav style={{ margin: '1rem 0' }}>
+                        <Link to="/games" className="info__explore-link">Games</Link>
+                    </nav>
                     <div className="info__about-block">
                         <p className="info__about-us">FOLLOW US</p>
                         <div className="info__social-network">
