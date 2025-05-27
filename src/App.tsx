@@ -6,18 +6,10 @@ import { routes } from "./routes/routes";
 import Solenyx from "./components/solenyx/Solenyx";
 
 function App() {
-    const [count, setCount] = useState(0)
-    useEffect(() => {
-        setCount(1)
-    }, [count])
-
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path={routes.home.path} element={<Solenyx />} />
-                <Route path={routes.games.path} element={count ? <Home /> : <Loader />} />
-            </Routes>
-        </BrowserRouter>
-    );
+    let query = new URLSearchParams(window.location.search);
+    
+    return query.has("games") ?
+        <Home /> :
+        <Solenyx />;
 }
 export default App;
