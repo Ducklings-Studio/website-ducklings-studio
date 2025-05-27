@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.3820adb0.css",
-    "main.js": "/static/js/main.cc5fd54e.js",
+    "main.js": "/static/js/main.53c92c87.js",
     "static/media/Mushroots_poster.jpg": "/static/media/Mushroots_poster.944a32da6ddeaf2b1619.jpg",
-    "static/media/Ducklings_Studio_logo.svg": "/static/media/Ducklings_Studio_logo.86900b3457e290d991e5e3303d3116c3.svg",
+    "static/media/Ducklings_Studio_logo.svg": "/static/media/Ducklings_Studio_logo.9baa731a48f281dc03789e73fa59671e.svg",
     "index.html": "/index.html",
     "static/media/instagram.svg": "/static/media/instagram.018ab7f813e35887d0baf29d349d615d.svg",
-    "static/media/gamepad.svg": "/static/media/gamepad.dc5d109d06a374dd21f03fd7dd919b5c.svg",
-    "static/media/telegram.svg": "/static/media/telegram.93238a109ab37bc63c7b91dba89b414a.svg",
-    "static/media/youtube.svg": "/static/media/youtube.ef99af766fcaace47eecfaa920fbf99b.svg",
+    "static/media/gamepad.svg": "/static/media/gamepad.3bbb52b2fd9cfccd30d5aec4cec76d5e.svg",
+    "static/media/telegram.svg": "/static/media/telegram.d83340aed2aba6ba7c226ae8ee4bca63.svg",
+    "static/media/youtube.svg": "/static/media/youtube.2dd07eec637f4e6ba49c843cc13e1352.svg",
     "static/media/discord.svg": "/static/media/discord.78e7bdfb55259fd6ad708ce2663a0c0b.svg",
-    "static/media/x.svg": "/static/media/x.0c425d733af8d6b87d239709c0a28dab.svg",
+    "static/media/x.svg": "/static/media/x.5ad7666d04b3c92604fa05e88ffa1906.svg",
     "main.3820adb0.css.map": "/static/css/main.3820adb0.css.map",
-    "main.cc5fd54e.js.map": "/static/js/main.cc5fd54e.js.map"
+    "main.53c92c87.js.map": "/static/js/main.53c92c87.js.map"
   },
   "entrypoints": [
     "static/css/main.3820adb0.css",
-    "static/js/main.cc5fd54e.js"
+    "static/js/main.53c92c87.js"
   ]
 }
