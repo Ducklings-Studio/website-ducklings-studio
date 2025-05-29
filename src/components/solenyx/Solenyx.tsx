@@ -10,7 +10,7 @@ const slides = [
       left: 20,
       color: "#ff9800",
       textDecoration: "none",
-      fontSize: "24px",
+      fontSize: "1.5rem",
       fontWeight: "bold",
     }} href="/?games">
       Ducklings Studio
@@ -19,7 +19,7 @@ const slides = [
     subtitle: "Your Partner in Outsourcing Solutions",
     description: "We provide top-tier development outsourcing and freelance services for companies worldwide.",
     extra: (
-      <div className="solenyx-card-row" style={{ marginTop: 32 }}>
+      <div className="solenyx-card-row" style={{ marginTop: "2rem" }}>
         <AnimatedCard title="Variety of Services" desc="Web, mobile, desktop, and game development. Full-cycle or team extension." color="#ff9800" />
         <AnimatedCard title="Competitive Rates" desc="Startup-friendly approach and very competitive rates." color="#ff9800" />
         <AnimatedCard title="High Quality" desc="Industry experts in every field necessary for your project." color="#ff9800" />
@@ -31,7 +31,7 @@ const slides = [
     subtitle: "Flexible, Scalable, Reliable",
     description: "From concept to launch, our experienced team delivers high-quality results on time and on budget.",
     extra: (
-      <div className="solenyx-card-row" style={{ marginTop: 32 }}>
+      <div className="solenyx-card-row" style={{ marginTop: "2rem" }}>
         <AnimatedCard title="Prototyping" desc="Rapid prototyping and proof-of-concept for new ideas." color="#ff9800" />
         <AnimatedCard title="Extension" desc="Whether you need to rebuild an app or add new features, we will make your vision a reality." color="#ff9800" />
         <AnimatedCard title="Plug-in Team" desc="A plug-in, experienced team for any one of your projects." color="#ff9800" />
@@ -43,7 +43,7 @@ const slides = [
     subtitle: "What We've Done",
     description: "A selection of our recent outsourcing projects across industries.",
     extra: (
-      <div className="solenyx-card-row" style={{ marginTop: 32 }}>
+      <div className="solenyx-card-row" style={{ marginTop: "2rem" }}>
         <AnimatedCard title="University Q&A App" desc="Developed an anonymous Q&A app where professors and other students can help in understanding subjects better." color="#4caf50" />
         <AnimatedCard title="ERP" desc="Developed business critical software for wholesale food retailers with AI features." color="#2196f3" />
         <AnimatedCard title="Games" desc="A variety of strategy and casual games." color="#e91e63" />
@@ -55,7 +55,7 @@ const slides = [
     subtitle: "Experienced. Passionate. Reliable.",
     description: "Our team consists of itechnical experts dedicated to your success.",
     extra: (
-      <div className="solenyx-card-row" style={{ marginTop: 32 }}>
+      <div className="solenyx-card-row" style={{ marginTop: "2rem" }}>
         <AnimatedCard title="Nykyta" desc="Full-Stack/AI Developer" avatar color="#ff9800" />
         <AnimatedCard title="Anton" desc="Backend Developer" avatar color="#ff9800" />
         <AnimatedCard title="Artem" desc="Designer/Frontend Developer" avatar color="#ff9800" />
@@ -67,7 +67,7 @@ const slides = [
     subtitle: "Let's Build Something Great Together",
     description: "Reach out to discuss your project and see how Solenyx can help you succeed.",
     extra: (
-      <div className="solenyx-card-row" style={{ marginTop: 32, flexDirection: "column", alignItems: "center", gap: 24 }}>
+      <div className="solenyx-card-row" style={{ marginTop: "2rem", flexDirection: "column", alignItems: "center", gap: "1.5rem" }}>
         <AnimatedCard title="Email" desc={<a href="mailto:contact@ducklings-studio.com" style={{ color: "#fff", textDecoration: "underline" }}>contact@ducklings-studio.com</a>} color="#ff9800" />
       </div>
     ),
@@ -83,10 +83,10 @@ function AnimatedCard({ title, desc, color, avatar = false }: { title: string; d
       }}
     >
       {avatar && (
-        <div style={{ width: 64, height: 64, borderRadius: "50%", background: color, margin: "0 auto 16px auto" }} />
+        <div style={{ width: 64, height: 64, borderRadius: "50%", background: color, margin: "0 auto 1rem auto" }} />
       )}
       <h3 style={{ color, marginBottom: 8 }}>{title}</h3>
-      <div style={{ fontSize: 16 }}>{desc}</div>
+      <div style={{ fontSize: "1rem" }}>{desc}</div>
     </div>
   );
 }
@@ -121,9 +121,9 @@ export default function Solenyx() {
           }}
         >
           {slide.top}
-          <h1 style={{ fontSize: "48px", marginBottom: "16px", marginTop: "0" }}>{slide.title}</h1>
-          <h2 style={{ fontSize: "32px", marginBottom: "24px", color: "#ff9800" }}>{slide.subtitle}</h2>
-          <p style={{ fontSize: "20px", maxWidth: "600px", textAlign: "center" }}>{slide.description}</p>
+          <h1 style={{ fontSize: "3rem", marginBottom: "1rem", marginTop: "0" }}>{slide.title}</h1>
+          <h2 style={{ fontSize: "2rem", marginBottom: "1.5rem", color: "#ff9800" }}>{slide.subtitle}</h2>
+          <p style={{ fontSize: "1.25rem", maxWidth: "600px", textAlign: "center" }}>{slide.description}</p>
           {slide.extra}
         </section>
       ))}
