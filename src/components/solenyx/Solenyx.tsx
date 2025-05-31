@@ -6,8 +6,8 @@ const slides = [
   {
     top: <a style={{
       position: "absolute",
-      top: 20,
-      left: 20,
+      top: "1.25rem",
+      left: "1.25rem",
       color: "#ff9800",
       textDecoration: "none",
       fontSize: "1.5rem",
@@ -79,13 +79,13 @@ function AnimatedCard({ title, desc, color, avatar = false }: { title: string; d
     <div
       className="solenyx-card"
       style={{
-        borderTop: `4px solid ${color}`
+        borderTop: `0.25rem solid ${color}`
       }}
     >
       {avatar && (
-        <div style={{ width: 64, height: 64, borderRadius: "50%", background: color, margin: "0 auto 1rem auto" }} />
+        <div style={{ width: "2rem", height: "2rem", borderRadius: "50%", background: color, margin: "0 auto 1rem auto" }} />
       )}
-      <h3 style={{ color, marginBottom: 8 }}>{title}</h3>
+      <h3 style={{ color, marginBottom: "0.5rem" }}>{title}</h3>
       <div style={{ fontSize: "1rem" }}>{desc}</div>
     </div>
   );
@@ -121,9 +121,9 @@ export default function Solenyx() {
           }}
         >
           {slide.top}
-          <h1 style={{ fontSize: "3rem", marginBottom: "1rem", marginTop: "0" }}>{slide.title}</h1>
-          <h2 style={{ fontSize: "2rem", marginBottom: "1.5rem", color: "#ff9800" }}>{slide.subtitle}</h2>
-          <p style={{ fontSize: "1.25rem", maxWidth: "600px", textAlign: "center" }}>{slide.description}</p>
+          <h1 style={{ marginBottom: "1rem", marginTop: "0" }}>{slide.title}</h1>
+          <h2 style={{ marginBottom: "1.5rem", color: "#ff9800" }}>{slide.subtitle}</h2>
+          <p style={{ fontSize: "1.25rem", maxWidth: "37.5rem", textAlign: "center" }}>{slide.description}</p>
           {slide.extra}
         </section>
       ))}

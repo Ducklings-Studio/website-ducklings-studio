@@ -8,9 +8,30 @@
   }
 }
 
+@media (min-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .solenyx-card {
+    padding: 2rem;
+  }
+}
+
 @media (max-width: 480px) {
   :root {
     font-size: 12px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .solenyx-card {
+    padding: 1.5rem;
   }
 }
 
@@ -22,11 +43,10 @@
   align-items: center;
 
   background: #232323;
-  border-radius: 12px;
-  padding: 2rem;
-  min-width: 220px;
-  max-width: 300px;
-  box-shadow: 0 2px 12px #0002;
+  border-radius: 0.75rem;
+  min-width: 13.75rem;
+  max-width: 18.75rem;
+  box-shadow: 0 0.125rem 0.75rem #0002;
   text-align: center;
   position: relative;
   cursor: pointer;
@@ -38,8 +58,8 @@
   transform: translateZ(0);
 
   &:hover {
-    transform: translateY(-12px) scale(1.04) translateZ(0);
-    box-shadow: 0 8px 32px #0006;
+    transform: translateY(-0.75rem) scale(1.04) translateZ(0);
+    box-shadow: 0 0.5rem 2rem #0006;
     z-index: 2;
   }
 }
