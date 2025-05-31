@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.82f51c27.css",
-    "main.js": "/static/js/main.36180501.js",
+    "main.css": "/static/css/main.debcf489.css",
+    "main.js": "/static/js/main.80e66f1b.js",
     "static/media/Mushroots_poster.jpg": "/static/media/Mushroots_poster.944a32da6ddeaf2b1619.jpg",
     "static/media/Ducklings_Studio_logo.svg": "/static/media/Ducklings_Studio_logo.86900b3457e290d991e5e3303d3116c3.svg",
     "index.html": "/index.html",
@@ -11,11 +11,11 @@
     "static/media/youtube.svg": "/static/media/youtube.ef99af766fcaace47eecfaa920fbf99b.svg",
     "static/media/discord.svg": "/static/media/discord.78e7bdfb55259fd6ad708ce2663a0c0b.svg",
     "static/media/x.svg": "/static/media/x.0c425d733af8d6b87d239709c0a28dab.svg",
-    "main.82f51c27.css.map": "/static/css/main.82f51c27.css.map",
-    "main.36180501.js.map": "/static/js/main.36180501.js.map"
+    "main.debcf489.css.map": "/static/css/main.debcf489.css.map",
+    "main.80e66f1b.js.map": "/static/js/main.80e66f1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.82f51c27.css",
-    "static/js/main.36180501.js"
+    "static/css/main.debcf489.css",
+    "static/js/main.80e66f1b.js"
   ]
 }
