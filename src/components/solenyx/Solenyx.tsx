@@ -12,6 +12,10 @@ const slides = [
       textDecoration: "none",
       fontSize: "1.5rem",
       fontWeight: "bold",
+      padding: "0.5rem 1rem",
+      background: "#181818",
+      borderRadius: "1rem",
+      zIndex: 10000,
     }} href="/?games">
       Ducklings Studio
     </a>,
@@ -56,9 +60,9 @@ const slides = [
     description: "Our team consists of itechnical experts dedicated to your success.",
     extra: (
       <div className="solenyx-card-row" style={{ marginTop: "2rem" }}>
-        <AnimatedCard title="Nykyta" desc="Full-Stack/AI Developer" avatar color="#ff9800" />
-        <AnimatedCard title="Anton" desc="Backend Developer" avatar color="#ff9800" />
-        <AnimatedCard title="Artem" desc="Designer/Frontend Developer" avatar color="#ff9800" />
+        <AnimatedCard title="Nykyta" desc="Full-Stack/AI Developer" avatar="/IMG_9310.JPG" color="#ff9800" />
+        <AnimatedCard title="Anton" desc="Backend Developer" avatar="/ava_norm.png" color="#ff9800" />
+        <AnimatedCard title="Artem" desc="Designer/Frontend Developer" avatar="/ProfilePhoto.jpg" color="#ff9800" />
       </div>
     ),
   },
@@ -74,7 +78,7 @@ const slides = [
   },
 ];
 
-function AnimatedCard({ title, desc, color, avatar = false }: { title: string; desc: React.ReactNode; color: string; avatar?: boolean }) {
+function AnimatedCard({ title, desc, color, avatar }: { title: string; desc: React.ReactNode; color: string; avatar?: string }) {
   return (
     <div
       className="solenyx-card"
@@ -83,7 +87,7 @@ function AnimatedCard({ title, desc, color, avatar = false }: { title: string; d
       }}
     >
       {avatar && (
-        <div style={{ width: "2rem", height: "2rem", borderRadius: "50%", background: color, margin: "0 auto 1rem auto" }} />
+        <img src={avatar} style={{ width: 80, height: 80, borderRadius: "50%", background: color, margin: "0 auto 1rem auto" }} />
       )}
       <h3 style={{ color, marginBottom: "0.5rem" }}>{title}</h3>
       <div style={{ fontSize: "1rem" }}>{desc}</div>
