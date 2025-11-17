@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.debcf489.css",
-    "main.js": "/static/js/main.61434220.js",
+    "main.js": "/static/js/main.8ad4c1ac.js",
     "static/media/Mushroots_poster.jpg": "/static/media/Mushroots_poster.944a32da6ddeaf2b1619.jpg",
     "static/media/Ducklings_Studio_logo.svg": "/static/media/Ducklings_Studio_logo.9baa731a48f281dc03789e73fa59671e.svg",
     "index.html": "/index.html",
@@ -12,10 +12,10 @@
     "static/media/discord.svg": "/static/media/discord.78e7bdfb55259fd6ad708ce2663a0c0b.svg",
     "static/media/x.svg": "/static/media/x.5ad7666d04b3c92604fa05e88ffa1906.svg",
     "main.debcf489.css.map": "/static/css/main.debcf489.css.map",
-    "main.61434220.js.map": "/static/js/main.61434220.js.map"
+    "main.8ad4c1ac.js.map": "/static/js/main.8ad4c1ac.js.map"
   },
   "entrypoints": [
     "static/css/main.debcf489.css",
-    "static/js/main.61434220.js"
+    "static/js/main.8ad4c1ac.js"
   ]
 }
