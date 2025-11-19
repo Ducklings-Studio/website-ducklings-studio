@@ -29,8 +29,8 @@ const slides = [
         <AnimatedCard title="Plug-in Team" desc="A plug-in, experienced team for any one of your projects." color="#ff9800" bgColor="rgba(24,24,24,0.5)" />
       </div>
     ),
-    bgColor: "rgba(0,0,0,0)",
     textColor: "#fff",
+    bgColor: "#181818",
   },
   {
     title: "Projects",
@@ -138,20 +138,6 @@ export default function Solenyx() {
           </div>
         </section>
       ))}
-
-      <video autoPlay loop style={{
-        "backgroundImage": "url(\"https://cdn.prod.website-files.com/6840876d4d1ed0e8e2a330b9%2F684095d127c9ea85d4851940_new-12149178_1920_1080_24fps-poster-00001.jpg\";)",
-        "width": "100vw",
-        "minHeight": "calc(100vh - 1rem)",
-        borderRadius: "2rem",
-        "position": "relative",
-        "top": "calc(-400vh + 0.5rem)",
-        zIndex: 1,
-        objectFit: "fill",
-      }} muted playsInline preload="auto">
-        <source src="https://cdn.prod.website-files.com/68c31b6fdf81c54998731fd8/68c31b70df81c5499873205e_new-12149178_1920_1080_24fps-transcode.mp4"></source>
-        <source src="https://cdn.prod.website-files.com/68c31b6fdf81c54998731fd8/68c31b70df81c5499873205e_new-12149178_1920_1080_24fps-transcode.webm"></source>
-      </video>
     </div>
   </>;
 } 
