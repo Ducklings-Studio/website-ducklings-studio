@@ -67,7 +67,7 @@ const slides = [
     description: "Reach out to discuss your project and see how Solenyx can help you succeed.",
     extra: (
       <div className="solenyx-card-row" style={{ marginTop: "2rem", flexDirection: "row", alignItems: "center", gap: "1.5rem" }}>
-        <AnimatedCard title="Email" desc={<a href="mailto:nikita@ostaplyuk.com" style={{ color: "#000", textDecoration: "underline" }}>nikita@ostaplyuk.com</a>} bgColor="#fff" color="#ff9800" />
+        <AnimatedCard title="Email" desc={<a href="mailto:the.ducklings.studio@gmail.com" style={{ color: "#000", textDecoration: "underline" }}>the.ducklings.studio@gmail.com</a>} bgColor="#fff" color="#ff9800" />
         <AnimatedCard title="Phone" desc={<a href="tel:+33601956148" style={{ color: "#000", textDecoration: "underline" }}>+33601956148</a>} bgColor="#fff" color="#ff9800" />
       </div>
     ),
