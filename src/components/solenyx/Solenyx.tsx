@@ -54,7 +54,7 @@ const slides = [
       <div className="solenyx-card-row" style={{ marginTop: "2rem" }}>
         <AnimatedCard title="Nykyta" desc="Full-Stack/AI Developer" avatar="/IMG_9310.JPG" color="#ff9800" />
         <AnimatedCard title="Tony" desc="Backend Developer" avatar="/ava_norm.png" color="#ff9800" />
-        <AnimatedCard title="Michael" desc="Backend Developer" avatar="/DSC03622.JPG" color="#ff9800" />
+        <AnimatedCard title="Kostiantyn" desc="Full-Stack Developer" avatar="/1649257889808.jpeg" color="#ff9800" />
         <AnimatedCard title="Artem" desc="Designer/Frontend Developer" avatar="/ProfilePhoto.jpg" color="#ff9800" />
       </div>
     ),
